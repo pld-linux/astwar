@@ -7,7 +7,7 @@ License:	GPL
 Group:		Applications/Games
 Source0:	http://freesoftware.fsf.org/download/%{name}/%{name}-%{version}.tar.gz
 # Source0-md5:	09f9cccaea530e78eeb0bcfef796142e
-URL:		http://www.freesoftware.fsf.org/%{name}/index.html
+URL:		http://www.freesoftware.fsf.org/astwar/index.html
 BuildRequires:	ncurses-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
  
@@ -30,6 +30,7 @@ zaprogramowaæ statek, by robi³ niektóre rzeczy automatycznie.
 
 %build
 %configure2_13 
+
 %{__make} INCLUDES=-I/usr/include/ncurses
 
 %install
