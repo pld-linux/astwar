@@ -10,7 +10,7 @@ Source0:	http://freesoftware.fsf.org/download/%{name}/%{name}-%{version}.tar.gz
 URL:		http://www.freesoftware.fsf.org/astwar/index.html
 BuildRequires:	ncurses-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
- 
+
 %description
 Astwar is a ncurses based simple space shooter; two little ships
 (asterisks), each on one side of the screen, try to shoot each other.
@@ -29,7 +29,7 @@ zaprogramowaæ statek, by robi³ niektóre rzeczy automatycznie.
 %setup -q
 
 %build
-%configure2_13 
+%configure2_13
 
 %{__make} INCLUDES=-I/usr/include/ncurses
 
