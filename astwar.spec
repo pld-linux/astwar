@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		Applications/Games
 Source0:	http://freesoftware.fsf.org/download/%{name}/%{name}-%{version}.tar.gz
+# Source0-md5:	09f9cccaea530e78eeb0bcfef796142e
 URL:		http://www.freesoftware.fsf.org/%{name}/index.html
 BuildRequires:	ncurses-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
