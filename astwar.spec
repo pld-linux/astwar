@@ -1,5 +1,5 @@
 Summary:	AstWar is a terminal based 2D space shooter
-Summary(pl.UTF-8):   AstWar to terminalowa strzelanina kosmiczna 2D
+Summary(pl.UTF-8):	AstWar to terminalowa strzelanina kosmiczna 2D
 Name:		astwar
 Version:	0.4.5
 Release:	1
