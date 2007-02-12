@@ -1,5 +1,5 @@
 Summary:	AstWar is a terminal based 2D space shooter
-Summary(pl):	AstWar to terminalowa strzelanina kosmiczna 2D
+Summary(pl.UTF-8):   AstWar to terminalowa strzelanina kosmiczna 2D
 Name:		astwar
 Version:	0.4.5
 Release:	1
@@ -18,12 +18,12 @@ There is network support with several multiplayer options and user
 extension with Scheme (via Guile) to program the little ship to do
 some things automatically are in the works.
 
-%description -l pl
-Astwar to oparta na ncurses prosta strzelanina kosmiczna. Dwa ma³e
-statki (gwiazdki), ka¿dy z innej strony ekranu, próbuj± siê
-zastrzeliæ. Gra ma obs³ugê sieci z kilkoma opcjami gry dla wielu
+%description -l pl.UTF-8
+Astwar to oparta na ncurses prosta strzelanina kosmiczna. Dwa maÅ‚e
+statki (gwiazdki), kaÅ¼dy z innej strony ekranu, prÃ³bujÄ… siÄ™
+zastrzeliÄ‡. Gra ma obsÅ‚ugÄ™ sieci z kilkoma opcjami gry dla wielu
 graczy i pozwala na rozszerzenia w Scheme (poprzez Guile), aby
-zaprogramowaæ statek, by robi³ niektóre rzeczy automatycznie.
+zaprogramowaÄ‡ statek, by robiÅ‚ niektÃ³re rzeczy automatycznie.
 
 %prep
 %setup -q
